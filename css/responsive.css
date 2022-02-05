@@ -50,6 +50,17 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
+	.ul.bullet {
+		list-style-type: square;
+	}
+	.bullets {
+	}
+	.bullets {
+	}
+
+		.bullets li {
+			list-style-type: circle;
+		}
 }
 @media (max-width: 767px) {
 	#mainNav {
@@ -98,6 +109,17 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
+	.ul.bullet {
+		list-style-type: square;
+	}
+	.bullets {
+	}
+	.bullets {
+	}
+
+		.bullets li {
+			list-style-type: circle;
+		}
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
@@ -146,5 +168,16 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
+	.ul.bullet {
+		list-style-type: square;
+	}
+	.bullets {
+	}
+	.bullets {
+	}
+
+		.bullets li {
+			list-style-type: circle;
+		}
 	
 }

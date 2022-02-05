@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>Claire Birnie - Research Scientist</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+            <div id="loader"></div>
+        </div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="Birnie_CV.pdf">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="https://scholar.google.com/citations?user=OdFUHY0AAAAJ&hl=en">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="main-banner parallaxie" style="background: url('personal_images/intro_banner.jpg')">
+        <div class="heading">
+            <h1>One Page Summary</h1>
+            <h2 style="color:white;">The potential of self-supervised networks for random noise suppression in seismic data</h2>
+            <br />
+            <br />
+            <br />
+            <h3 style="color:white;">Co-authors: Matteo Ravasi, Sixiu Liu, Tariq Alkhalifah</h3>
+            <br />
+            <h4 style="color:white;">[Noise Suppression; Self-supervised deep learning; Blind-spot networks; Seismic processing]</h4>
+        </div>
+    </section>
+
+    <!--BUTTONS-->
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="message-box">
+                    <a href="https://www.sciencedirect.com/science/journal/26665441" class="sim-btn btn-hover-new" data-text="PAPER"><span>PAPER</span></a>
+                    <a href="#highlights" class="sim-btn btn-hover-new" data-text="Highlights"><span>Highlights</span></a>
+                    <a href="#abstract" class="sim-btn btn-hover-new" data-text="Summary"><span>Summary</span></a>
+                    <a href="#theory" class="sim-btn btn-hover-new" data-text="Theory"><span>Theory</span></a>
+                    <a href="#results" class="sim-btn btn-hover-new" data-text="Key Results"><span>Key Results</span></a>
+                    <a href="#reference" class="sim-btn btn-hover-new" data-text="Cite"><span>Cite</span></a>
+
+                </div><!-- end messagebox -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <!--KEY ASPECTS-->
+    <div id="highlights" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h2>Highlights </h2>
+                        <ol style="list-style-type: circle">
+                            <li>Application of self-supervised deep learning for random noise suppression.</li>
+                            <li>Blind-spot networks shown to effectively reduce white and coloured noise.</li>
+                            <li>SNR improvements seen in the image, frequency and acoustic impedance domains.</li>
+                            <li>Network successfully trained and applied to post-stack field data.</li>
+                            <li>Blind-spot approach comparable to commonly used noise suppression procedures.</li>
+                        </ol>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <img src="research_images/Hess_WGN.jpeg" alt="" class="img-fluid img-rounded">
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <!--ABSTRACT-->
+    <div id="abstract" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="message-box">
+                    <h2> Abstract </h2>
+                    <p>
+                        Noise suppression is an essential step in many seismic processing workflows. A portion of
+                        this noise, particularly in land datasets, presents itself as random noise. In recent years,
+                        neural networks have been successfully used to denoise seismic data in a supervised fashion.
+                        However, supervised learning always comes with the often unachievable requirement of having
+                        noisy-clean data pairs for training. Using blind-spot networks, we redefine the denoising task
+                        as a self-supervised procedure where the network uses the surrounding noisy samples to estimate
+                        the noise-free value of a central sample. Based on the assumption that noise is statistically
+                        independent between samples, the network struggles to predict the noise component of the sample
+                        due to its randomicity, whilst the signal component is accurately predicted due to its
+                        spatio-temporal coherency. Illustrated on synthetic examples, the blind-spot network is shown
+                        to be an efficient denoiser of seismic data contaminated by random noise with minimal damage to
+                        the signal; therefore, providing improvements in both the image domain and down-the-line tasks,
+                        such as post-stack inversion. To conclude our study, the suggested approach is applied to
+                        field data and the results are compared with two commonly used random denoising techniques:
+                        FX-deconvolution and sparsity-promoting inversion by Curvelet transform. By demonstrating that
+                        blind-spot networks are an efficient suppressor of random noise, we believe this is just the
+                        beginning of utilising self-supervised learning in seismic applications.
+                    </p>
+                </div><!-- end messagebox -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <!--THEORY-->
+    <div id="theory" class="section wb">
+        <div class="container">
+            <div class="message-box">
+                <h2> Theory </h2>
+            </div><!-- end messagebox -->
+            <div class="row">
+                <div class="col-md-6">
+                    <br />
+                    <img src="research_images/one_pagers/N2V_workflow.png" alt="" class="img-fluid img-rounded">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        N2V works by replacing a set of non-adjacent pixels in an image with randomly
+                        selected pixels that pertain to the receptive field of the chosen network. The
+                        corrupted image becomes the input to a standard
+                        NN architecture (in our
+                        case a U-Net was used), whilst the original noisy image is used as
+                        the target. As opposed to standard NN image processing tasks, the loss function is not computed
+                        on every pixel in the input data, instead it is only evaluated for the blind-spotted pixels,
+                        i.e., those that were corrupted in the input image. Whilst originally proposed for the
+                        suppression of i.i.d. noise in natural images and microscopy data, in this work we show that
+                        N2V can be adapted into an efficient suppressor of band-passed random noise in seismic data,
+                        i.e. data that has some degree of correlation along the time axis. This
+                        however requires a careful consideration of the algorithm's hyper-parameters and their meaning
+                        with respect to the seismic scenario.
+                    </p>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <!--RESULTS-->
+    <div id="results" class="section wb">
+        <div class="container">
+            <div class="message-box">
+                <h2> Results </h2>
+            </div><!-- end messagebox -->
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Field results
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="research_images/one_pagers/N2V_field.png" alt="" class="img-fluid img-rounded">
+                </div>
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <!--REFERENCE-->
+    <div id="reference" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="message-box" id="mbox">
+                    <h2> Cite </h2>
+                    <p>
+                        If you found the paper useful, please cite it via:<br />
+                    </p>
+
+                    <div class="highlight">
+                        <pre class="chroma">
+                            <code>
+                                Birnie, C., Ravasi, M., Liu, S. and Alkhalifah, T., 2021. The potential of
+                                self-supervised networks for random noise suppression in seismic data. Artificial
+                                Intelligence in Geosciences, 2, pp.47-59
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="highlight">
+                        <pre class="chroma">
+                        <code>
+                            @article{birnie2021potential,
+                            title={The potential of self-supervised networks for random noise suppression in seismic data},
+                            author={Birnie, Claire and Ravasi, Matteo and Liu, Sixiu and Alkhalifah, Tariq},
+                            journal={Artificial Intelligence in Geosciences},
+                            volume={2},
+                            pages={47--59},
+                            year={2021},
+                            publisher={Elsevier}
+                            }
+                            </code>
+                        </pre>
+                    </div>
+                </div><!-- end messagebox -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">
+                        All Rights Reserved. &copy; 2021 <a href="#">Claire Birnie</a>
+                    </p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- Camera Slider -->
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/parallaxie.js"></script>
+    <script src="js/headline.js"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
+</html>
